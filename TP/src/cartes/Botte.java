@@ -1,7 +1,6 @@
 package cartes;
 
 public class Botte extends Probleme {
-	private Type type;
 	
 	public Botte(Type type) {
 		super(type);
@@ -10,6 +9,6 @@ public class Botte extends Probleme {
 	
 	@Override
 	public String toString() {
-		return type.getBotte();	
+		return getType().getBotte();	
 	}
 }

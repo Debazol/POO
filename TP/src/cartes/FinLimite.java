@@ -1,9 +1,13 @@
 package cartes;
 
-public class FinLimite {
+public class FinLimite extends Limite{
+	private String finlimite="Fin Limite";
 
-	public FinLimite() {
-		// TODO Auto-generated constructor stub
+	public FinLimite(String limite) {
+		this.finlimite=limite;
+	}
+	public String getFinlimite() {
+		return finlimite;
 	}
 
 }
